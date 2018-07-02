@@ -1,0 +1,25 @@
+@keyframes masuperanimation {
+
+}
+
+#carre{
+	width:200px;
+	height:200px;
+    background:#ff0000;
+    transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        background:#0000ff;
+    }
+}
+ 
+#carre:hover{
+    animation: rotating 2s linear infinite;
+    
+}
